@@ -1,0 +1,60 @@
+body {
+  text-align: center;
+  background: #a2d2ff;
+  color: #ffffff;
+  text-shadow: 0 0 1px;
+}
+
+.header {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+#ff-img {
+  width: 250px;
+  border: 6px solid #efb0c9;
+  border-radius: 50%;
+}
+#bd-age {
+   margin-bottom: 0px;
+}
+#bd-year {
+  margin-top: 5px;
+}
+
+.dates {
+   background-color: #efb0c9;
+   padding: 5px 10px;
+   border-radius: 5px;
+}
+
+#gift-t {
+   margin-bottom: 0px;
+}
+.gift-hint {
+   margin-top: 0px;
+}
+.bd-gift {
+   width: 800px;
+   height: 800px;
+   background-image:url("birthday card.jpg");
+   background-size: cover;
+   border: 6px solid #ffffff ;
+   border-radius: 5px;
+   margin: 0 auto;
+}
+#bd-cheers {
+  height: 600px;
+}
+#bd-happy:hover {
+    background-image:url("happy.webp");
+}
+#bd-hot:hover {
+    background-image:url("hot.webp");
+}
+#bd-gen:hover {
+    background-image:url("gen.webp");
+}
+#bd-cheers:hover {
+    background-image:url("cheers.webp");
+}
